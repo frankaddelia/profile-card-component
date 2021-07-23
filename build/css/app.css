@@ -1,0 +1,95 @@
+/*** primary colors ***/
+/*** neutral colors ***/
+body {
+  background: url("../../images/bg-pattern-top.svg") left -100px top -500px no-repeat, url("../../images/bg-pattern-bottom.svg") right -200px bottom -500px no-repeat;
+  background-color: #19a2ae;
+  background-repeat: no-repeat;
+  font-family: "Kumbh sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+footer {
+  bottom: 10px;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  position: absolute;
+  text-align: center;
+}
+
+footer > .attribution {
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.bold-text {
+  color: #2d3248;
+  font-weight: bold;
+}
+
+.card {
+  align-items: center;
+  background: #fff url("../../images/bg-pattern-card.svg") no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 425px;
+  justify-content: center;
+  width: 400px;
+}
+
+.card-header {
+  background-color: transparent;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+.card-header img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.card-footer {
+  align-items: center;
+  border-top: 1px solid #969696;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card-footer > div {
+  align-self: flex-end;
+  flex: 1 1 0;
+  text-align: center;
+}
+
+.container {
+  align-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.gray-text {
+  color: #969696;
+}
+
+.small-text {
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background: url("../../images/bg-pattern-top.svg") left -50px top -500px no-repeat, url("../../images/bg-pattern-bottom.svg") right -50px bottom -500px no-repeat;
+    background-size: 250px, 250px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
